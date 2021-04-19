@@ -1,0 +1,33 @@
+.tag_container {
+  width: 80%;
+  margin: 10% auto;
+  box-shadow: 4px 4px 2px #eee;
+}
+
+.tagname {
+  background-color: #eee;
+  padding: 20px;
+  text-align: center;
+  font-family: "pacifico", cursive;
+}
+
+.tagged_posts {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 20px;
+  grid-gap: 10px;
+  justify-items: center;
+  border: 1px solid #ccc;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 699px) {
+  .tag_container {
+    margin: 22% auto;
+  }
+}
